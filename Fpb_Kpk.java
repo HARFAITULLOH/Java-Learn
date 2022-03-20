@@ -19,7 +19,7 @@ public class Fpb_Kpk {
 
     }
 
-    //Program of FPB
+    //Program of Highest Common Factor (GDC)
     public static void searchFpb(int a, int b){
         for (var i = a; i > 0; i--){
             if (a%i == 0 && b%i == 0){
@@ -29,6 +29,7 @@ public class Fpb_Kpk {
         }
     }
 
+    //Program of Lowest Common Multiple (LCM)
     public static void searchKpk(int a, int b){
         for (var i = 1; i <= a; i++){
             var hasil = b * i;
