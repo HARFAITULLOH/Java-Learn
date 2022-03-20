@@ -1,5 +1,3 @@
-package trystudicase;
-
 import java.util.Scanner;
 
 public class Fpb_Kpk {
@@ -21,6 +19,7 @@ public class Fpb_Kpk {
 
     }
 
+    //Program of FPB
     public static void searchFpb(int a, int b){
         for (var i = a; i > 0; i--){
             if (a%i == 0 && b%i == 0){
